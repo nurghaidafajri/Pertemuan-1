@@ -1,0 +1,10 @@
+Perbedaan abstract dan encapitulation dari segi hiding
+
+pada abstract, apa yang disembunyikan adalah detil proses
+=> yang disembunyikan adalah method
+=> jika ingin diolah, maka kelas abstract harus diturunkan kepada kelas lain dan melakukan Overriding
+=> dan kelas lain itu lah yang menjadi objek
+
+
+pada encap, apa yang disembunyikan adalah atribut
+=> jika ingin diolah, makan harus melakukan getter/setter dulu, sesuai kebutuhan
