@@ -22,7 +22,7 @@ II		Variabel Output		-	Pengenalan Kelas
 					-	Pengenalan Tipe Data	
 					-	Access Modifier	
 					-	Java syntax									
-						Latihan menampilkan keluaran �Hello World�					Tugas 1
+						Latihan menampilkan keluaran “Hello World”					Tugas 1
 ============|========================|===================================================================================|============================================
 III		Input Output		-	Mengenal sekilas Output								Tugas 2
 					-	Menggunakan Utilitas untuk input
@@ -74,7 +74,7 @@ VIII		Inheritance		-	Pengenalan inheritance / konsep pewarisan
 					-	Pengenalan sekilas overriding							Tugas 7 - Inheritance
 ============|=========================|==================================================================================|============================================
 IX		Kuis			-	Latihan Studi Kasus								Tugas 8 - MinMax
-
+============|=========================|==================================================================================|============================================
 X		Overriding		-	Mengenal override
 						Apa itu override dan untuk apa override itu	
 					-	Syarat override
