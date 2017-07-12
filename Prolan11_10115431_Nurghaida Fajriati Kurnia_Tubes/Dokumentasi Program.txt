@@ -1,0 +1,41 @@
+DOKUMENTASI
+
+1. Program ini adalah program untuk menampilkan total bayar
+   dengan kategori berbeda, total dengan kategori barang baru dan barang lama
+
+2. Cara menggunakan program
+   a. ketika program dijalankan, maka akan tampil Menu "View Sisa Barang" dan "Beli Barang".
+
+   b. user (kasir) dipersilahkan untuk memasukkan banyak barang kurang dari sama dengan sisa barang,
+      untuk mengetahui sisa barang yang tersisa, sebelum memilih menu beli barang
+      user disarankan untuk memilih menu "A. View Sisa Barang", jika sudah terlanjur memilih menu B
+      ketika kita memasukan jumlah barang yang melebihi sisa, akan ada keterangan sisa barang dan
+      pengulangan masukkan jumlah barang. Setelah itu akan muncul submenu kategori barang
+      untuk melihat total bayar sesuai kategori yg dipilih.
+
+   c. jika user memilih menu dan submenu yang tidak disediakan, maka akan ada ket. menu tidak ada
+      lalu user dipersilahkan memilih kembali menu yg disediakan.
+
+   d. jika user benar dalam memilih menu, maka program akan mengulas kembali identitas barang,
+      jumlah barang yg telah dimasukkan oleh user, dan total bayar sesuai kategori yg dipilih.
+
+3. Keterkaitan dengan OOP
+   a. Generik ada di package Final.DataBarang kelas SisaBarang
+
+   b. Inheritance
+      > kelas sebagai kelas bapak yaitu kelas Barang pada package Final.DataBarang
+      > kelas sebagai kelas anak yaitu kelas JualBarang pada package Final.Perhitungan
+
+   c. Interface ada di kelas BarangInterface dan implementnya ada di package Final.Perhitungan kelas Implementasi
+
+   d. Enkapsulasi ada di kelas enkapsulasi
+
+   e. Kelas abstract ada di kelas Barang
+
+   f. Overriding ada di package Final.Perhitungan kelas Implementasi dan 
+
+   g. Pembagian package:
+      package Final
+	> package Final.DataBarang
+	> package Final.Perhitungan
+	> package Final.Tampil
