@@ -1,95 +1,131 @@
-Pertemuan	Materi		Penjelasan										Folder Github
-I		Pendahuluan	-	Silabus
-					Menyampaikan apasaja materi yang akan dipelajari selama kbm	
-				-	Aturan Perkuliahan	
-				-	Penjelasan Java
-					System out println	
-				-	Pengenalan OOP sekilas
-					Memahami apa itu konsep OOP	
-				-	Seting Environment
-					Belajar mencoba mensetting environment	
-				-	Instalasi
-					Install netbeans, jdk jre
-				-	Belajar menggunakan netbeans	
-				-	Kompilasi
-					Cara meng-compile pakai cmd dan netbeans	
-				-	Membuat akun github	
+Pertemuan	Materi			Penjelasan										Folder Github
+============|========================|===================================================================================|============================================
+I		Pendahuluan		-	Silabus
+						Menyampaikan apasaja materi yang akan dipelajari selama kbm	
+					-	Aturan Perkuliahan	
+					-	Penjelasan Java
+						System out println	
+					-	Pengenalan OOP sekilas
+						Memahami apa itu konsep OOP	
+					-	Seting Environment
+						Belajar mencoba mensetting environment	
+					-	Instalasi
+						Install netbeans, jdk jre
+					-	Belajar menggunakan netbeans	
+					-	Kompilasi
+						Cara meng-compile pakai cmd dan netbeans	
+					-	Membuat akun github	
+============|========================|===================================================================================|============================================
+II		Variabel Output		-	Pengenalan Kelas	
+					-	Pengenalan Objek	
+					-	Pengenalan Atribut	
+					-	Pengenalan Tipe Data	
+					-	Access Modifier	
+					-	Java syntax									
+						Latihan menampilkan keluaran ï¿½Hello Worldï¿½					Tugas 1
+============|========================|===================================================================================|============================================
+III		Input Output		-	Mengenal sekilas Output								Tugas 2
+					-	Menggunakan Utilitas untuk input
+						Import java.util.scanner;	
+					-	Instansiasi Scanner
+						Scanner input = new Scanner (System.in)						
+					-	Latihan membuat kode syntax untuk input						Tugas 3 - Input Output
+============|========================|===================================================================================|============================================
+IV		Kelas dan Objek		-	Pengenalan OOP	
+					-	Membuat dan menggunakan kelas							Tugas 4 - Kelas dan Objek
+					-	Instansiasi kelas jadi objek	
+					-	Membuat atribut dan Method							Tugas 4 - Kelas dan Objek (Perbaikan)							
+============|========================|===================================================================================|============================================	
+V		Tipe Data		-	Pengenalan tipe data
+						Menjelaskan macam-macam tipe data, fungsi, dan ukurannya	
+					-	Menggunakan Tipe Data
+						Uji coba error human	
+============|========================|===================================================================================|============================================
+VI		Methode, Konstruktor, 	-	Mengenal macam-macam method
+		dan Atribut			Method (by value dan by reference)
+						By value (method yg mengembalikan nilai)
+						By reference (tidak mengembalikan nilai)	
+					-	Menggunakan Method
+						Assignment (Memberikan nilai/value pada suatu atribut)
+						Kata lain : meng-input	
+					-	Mengenal dan Menggunakan Konstruktor
+						Penjelasan tentang konstruktor itu sendiri
+						Bagaimana cara penulisan konstruktor dalam sebuah kelas	
+					-	Mengenal dan menggunakan atribut
+						Macam-macam atribut
+						Atribut (instance variable dan local variable)
+						Instance = atribut/variable yg bersifat umum,
+							   bisa di gunakan di semua method
+						Local = atribut/variable yg hanya dapat dipakai
+							di method yg terdapat variable itu sendiri	
+					-	Pengenalan dan Penggunakan this
+						This dapat dipakai dalam method dan konstruktor					Tugas 5 - Method, Konstruktor, This, Atribut
+============|========================|===================================================================================|============================================
+VII		Kuis			-	Latihan studi kasus								Tugas 6 - IP
+============|========================|===================================================================================|============================================	
+VIII		Inheritance		-	Pengenalan inheritance / konsep pewarisan
+						Menjelaskan apa itu pewarisan
+						Pengenalan kelas bapak dan kelas anak	
+					-	Cara menggunakan inheritance
+						Meng-extends kelas bapak ke kelas anak	
+					-	Syarat menggunakan inheritance
+						Access modifier minimal protected agar bisa dipakai di kelas anak	
+					-	Instansiasi kelas anak	
+					-	Pengenalan sekilas overriding							Tugas 7 - Inheritance
+============|=========================|==================================================================================|============================================
+IX		Kuis			-	Latihan Studi Kasus								Tugas 8 - MinMax
 
-II	Variabel Output		-	Pengenalan Kelas	
-				-	Pengenalan Objek	
-				-	Pengenalan Atribut	
-				-	Pengenalan Tipe Data	
-				-	Access Modifier	
-				-	Java syntax
-					Latihan menampilkan keluaran “Hello World”					Tugas 1
-III	Input Output		-	Menggunakan Utilitas untuk input
-					Import java.util.scanner;	
-				-	Instansiasi Scanner
-					Scanner input = new Scanner (System.in)	
-				-	Latihan membuat kode syntax untuk input						Tugas 3 - Input Output
-
-IV	Kelas dan Objek		-	Pengenalan OOP	
-				-	Membuat dan menggunakan kelas							Tugas 4 - Kelas dan Objek
-				-	Instansiasi kelas jadi objek	
-				-	Membuat atribut dan Method							Tugas 4 - Kelas dan Objek (Perbaikan)							
-	
-V	Tipe Data		-	Pengenalan tipe data
-					Menjelaskan macam-macam tipe data, fungsi, dan ukurannya	
-				-	Menggunakan Tipe Data
-					Uji coba error human	
-
-VI	Methode, Konstruktor, 	-	Mengenal macam-macam method
-	dan Atribut			Method (by value dan by reference)
-					By value (method yg mengembalikan nilai)
-					By reference (tidak mengembalikan nilai)	
-				-	Menggunakan Method
-					Assignment (Memberikan nilai/value pada suatu atribut)
-					Kata lain : meng-input	
-				-	Mengenal dan Menggunakan Konstruktor
-					Penjelasan tentang konstruktor itu sendiri
-					Bagaimana cara penulisan konstruktor dalam sebuah kelas	
-				-	Mengenal dan menggunakan atribut
-					Macam-macam atribut
-					Atribut (instance variable dan local variable)
-					Instance = atribut/variable yg bersifat umum,
-						   bisa di gunakan di semua method
-					Local = atribut/variable yg hanya dapat dipakai
-						di method yg terdapat variable itu sendiri	
-				-	Pengenalan dan Penggunakan this
-					This dapat dipakai dalam method dan konstruktor					Tugas 5 - Method, Konstruktor, This, Atribut
-
-VII	Kuis			-	Latihan studi kasus								Tugas 6 - IP
-	
-VIII	Inheritance		-	Pengenalan inheritance / konsep pewarisan
-					Menjelaskan apa itu pewarisan
-					Pengenalan kelas bapak dan kelas anak	
-				-	Cara menggunakan inheritance
-					Meng-extends kelas bapak ke kelas anak	
-				-	Syarat menggunakan inheritance
-					Access modifier minimal protected agar bisa dipakai di kelas anak	
-				-	Instansiasi kelas anak	
-				-	Pengenalan sekilas overriding							Tugas 7 - Inheritance
-
-IX	Kuis			-	Latihan Studi Kasus								Tugas 8 - MinMax
-
-X	Overriding		-	Mengenal override
-					Apa itu override dan untuk apa override itu	
-				-	Syarat override
-					Override dan inheritance itu berkaitan,
-					maka yg di override itu adalah apa yg ada di dalam
-					sebuah kelas yg diwariskan
-					Access modifiernya pun minimal protected	
-				-	Menggunakan override
-					Bagaimana caranya meng-override
-					Praktek/latihan menggunakan override						Tugas 9 - Override
-				-	Keyword super
-					Memahami perbedaan keyword super dan this	
-
-XI	Abstraction		-	Mengenal dan memahabi abstrak							Tugas 10 - Abstraction
-					Memahami perbedaan kelas abtract dan konkrit					Tugas 11 - Implementasi Abstraction
-					Mengextends kelas abstract ke kelas konkrit					Tugas 12 - Calculator Abstraction
-					Instansiasi kelas konkrit yg diwarisi
-					Latihan membuat kelas abstract							
-
-XII	
-
+X		Overriding		-	Mengenal override
+						Apa itu override dan untuk apa override itu	
+					-	Syarat override
+						Override dan inheritance itu berkaitan,
+						maka yg di override itu adalah apa yg ada di dalam
+						sebuah kelas yg diwariskan
+						Access modifiernya pun minimal protected	
+					-	Menggunakan override
+						Bagaimana caranya meng-override
+						Praktek/latihan menggunakan override						Tugas 9 - Override
+					-	Keyword super
+						Memahami perbedaan keyword super dan this	
+============|========================|===================================================================================|============================================
+XI		Abstraction		-	Mengenal dan memahami abstrak							Tugas 10 - Abstraction
+						Memahami perbedaan kelas abtract dan konkrit					Tugas 11 - Implementasi Abstraction
+						Mengextends kelas abstract ke kelas konkrit					Tugas 12 - Calculator Abstraction
+						Instansiasi kelas konkrit yg diwarisi
+						Latihan membuat kelas abstract							
+============|========================|===================================================================================|============================================
+XII		Polimorfisme            -	Mengenal Polimorfisme
+						Mengetahui apa itu polimorfisme
+						> Polimorfisme adalah kemampulan sebuah objek
+						  yang memiliki banyak bentuk (kelas)
+						> Memahami pengaplikasian Polimorfisme
+						Mengetahui apa itu objek
+						> Memahami kelas sebagai objek
+============|========================|===================================================================================|============================================
+XIII		Encapsulation		-	Pengenalan Encapsulation
+						> Encapsulation adalah sebuah proses atau mekanisme				Nurghaida Fajriati Kurnia - 10115431 - encapintergarion
+						  yang membungkus data dan fungsi dari sebuah kelas
+						  menjadi sebuah unit
+					-	Mengetahui konsep Encapsulation
+						Hiding dan Men-set setiap atribut dari kelas interface
+						menjadi private
+============|========================|===================================================================================|============================================
+XIV		Interface		-	Mengenal Interface								Tugas 14 - Interface
+					- 	Apa itu interface?
+						> Sebuah reference type yang mirip dengan kelas
+					-	Mengetahui perbedaan kelas dan interface
+============|========================|===================================================================================|============================================
+XV		Generic			-	Generic Class									Tugas 15 - Generik
+						> Generic Class adalah kelas yang generik atau umum
+						> Perbandingan Generic dan Inheritance
+						> Instansiasi kelas generik
+						> Penggunaan Generic yang berparameter lebih dari 1
+					- 	Generic Method									Tugas 16 - Generik Perubahan Fitur
+						> Memahai Generic Method
+						> Latihan pengaplikasian generic method dan
+						  testing human error/bug
+============|========================|===================================================================================|============================================
+XVI		Package			-	Mengulas kembali tentang package						Tugas 18 - Package
+					-	Penggunaan package
+					-	Membuat beberapa package dalam 1 projek
+					-	import projek
